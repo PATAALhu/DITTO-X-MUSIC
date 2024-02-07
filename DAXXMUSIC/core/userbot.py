@@ -140,9 +140,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("CDX_WORLD")
+                await self.five.join_chat("PATAAL_NAGRI")
                 
-                await self.one.join_chat("TEAM_CDX")
+                await self.one.join_chat("Ditto_999")
             except:
                 pass
             assistants.append(5)
